@@ -15,7 +15,8 @@ To get started withthis project, follow these steps:
    pip install -r requirements.txt
 3. Load initial data (optional) by going to the [Mysql dump](https://public.3.basecamp.com/p/uUrxhdzVjiCavY5tofiwejsD):
 4. Apply database migrations:
-5. Start the development server:
+5. Super user 's username "*manan*", password = *123*
+6. Start the development server:
 
    python manage.py runserver
-6. [API link for local host](http://127.0.0.1:8000/books/) for accessing in local, after, you can apply filters
+7. [API link for local host](http://127.0.0.1:8000/books/) for accessing in local, after, you can apply filters
