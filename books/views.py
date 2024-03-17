@@ -45,7 +45,7 @@ class BookQueryView(APIView):
 
         # Serialize paginated queryset
         serializer = BookSerializer(result_page, many=True)
-        print(result_page)
+        # print(books.count())
         # Return paginated response
         return paginator.get_paginated_response({
             'count': books.count(),  # Total number of books meeting the criteria

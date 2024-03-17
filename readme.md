@@ -1,6 +1,8 @@
 # Project Gutenberg Book API
 
-This project implements a Django REST framework API for accessing books from Project Gutenberg, a repository of freely available e-books.
+This project implements a Django REST framework API for accessing books from Project Gutenberg, a repository of freely available e-books. 
+
+Completed Bonus points also for "test coverage"
 
 ## Getting Started
 
@@ -19,4 +21,7 @@ To get started withthis project, follow these steps:
 6. Start the development server:
 
    python manage.py runserver
-7. [API link for local host](http://127.0.0.1:8000/books/) for accessing in local, after, you can apply filters
+7. Also run the tests for application
+
+   python manage.py test
+8. [API link for local host](http://127.0.0.1:8000/books/) for accessing in local, after, you can apply filters

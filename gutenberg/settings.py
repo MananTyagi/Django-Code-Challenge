@@ -81,6 +81,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'gutenberg_ec',
+        'TEST': {
+            'NAME': 'test_gutenberg_ec',
+        },
         'USER': 'root',
         'PASSWORD': 'password',
         'HOST': 'localhost',
